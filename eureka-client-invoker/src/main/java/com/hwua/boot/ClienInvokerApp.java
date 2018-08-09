@@ -1,0 +1,13 @@
+package com.hwua.boot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+@SpringBootApplication
+@EnableEurekaClient
+public class ClienInvokerApp {
+    public static void main(String[] args) {
+        SpringApplication.run(ClienInvokerApp.class,args);
+    }
+}

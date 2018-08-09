@@ -1,0 +1,10 @@
+#注册到服务器端的服务的名字为provider 注意！ 注册的服务的名字不能有下划线之类的特殊符号
+spring:
+  application:
+    name: provider
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

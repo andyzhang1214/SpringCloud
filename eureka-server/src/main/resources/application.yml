@@ -1,0 +1,10 @@
+server:
+  port: 8761
+#不要将该应用注册为客户端
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+logging:
+  level:
+    com.netflix: INFO
